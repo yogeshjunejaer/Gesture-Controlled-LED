@@ -11,11 +11,19 @@ __pycache__/
 venv/
 ENV/
 env/
+myenv/
+
+# Python cache
+*.pyc
+
+# IDE files
+.idea/
+.vscode/
 .mypy_cache/
 .pytest_cache/
 
 # Distribution / packaging
-.Python
+.Python/
 build/
 develop-eggs/
 dist/
@@ -39,4 +47,4 @@ share/python-wheels/
 *.spec
 
 # Installer logs
-pip-l
+pip-log.txt
